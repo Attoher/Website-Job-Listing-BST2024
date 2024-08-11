@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootCamp FP Kel 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="loader"></div>
+    <header>
+            <h2 class="kel">BootCamp FP</h2>
+            <nav class="navigation">
+                <a href="index.html" >Home</a>
+                <a href="list.html" class="active">List </a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <label class="switch">
+                <a>Auto-scroll</a>
+                <input type="checkbox" id="toggleSwitch">
+                <span class="slider"></span>
+            </label>
+    </header>
+
+    <section class="joblist">
+        <img src="images/white.png" id="white">
+        <img src="images/hill1.png" id="hill1">
+        <img src="images/hill2.png" id="hill2">
+        <img src="images/hill3.png" id="hill3">
+        <img src="images/hill4.png" id="hill4">
+        <img src="images/hill5.png" id="hill5">
+        <img src="images/tree.png" id="tree">
+        <h2 id="text">List</h2>
+        <img src="images/leaf.png" id="leaf">
+        <img src="images/plant.png" id="plant">
+    </section>
+
+    <section class="sec">
+        <h2>Job List</h2>
+        <br><hr><br>
+        <div class="row">
+            <div class="col">
+                <div class="card card-body">
+                    <input id="search-input" class="form-control" type="text" placeholder=" ID Search">
+                    <br><br>
+                    <a href="#" id="reset-btn" class="btn">Reset Search and Filter!</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="table-wrapper">
+            <table class="tbl1">
+                <thead>
+                    <tr>
+                        <th class="headertable" col-index="1">ID</th>
+                        <th class="headertable"  col-index="2">Company
+                            <select class="table-filter" onchange="filter_rows()">
+                            <option value="all"></option>
+                        </select>
+                        </th>
+                        <th class="headertable"  col-index="3">New
+                            <select class="table-filter" onchange="filter_rows()">
+                            <option value="all"></option>
+                        </select>
+                        </th>
+                        <th class="headertable"  col-index="4">Featured
+                            <select class="table-filter" onchange="filter_rows()">
+                            <option value="all"></option>
+                        </select>
+                        </th>
+                        <th class="headertable"  col-index="5">Position
+                            <select class="table-filter" onchange="filter_rows()">
+                            <option value="all"></option>
+                        </select>
+                        </th>
+                        <th class="headertable"  col-index="6">Role
+                            <select class="table-filter" onchange="filter_rows()">
+                            <option value="all"></option>
+                        </select>
+                        </th>
+                        <th class="headertable"  col-index="7">Level
+                            <select class="table-filter" onchange="filter_rows()">
+                            <option value="all"></option>
+                        </select>
+                        </th>
+                        <th class="headertable"  col-index="8">Posted
+                            <select class="table-filter" onchange="filter_rows()">
+                            <option value="all"></option>
+                        </select>
+                        </th>
+                        <th class="headertable"  col-index="9">Contract
+                            <select class="table-filter" onchange="filter_rows()">
+                            <option value="all"></option>
+                        </select>
+                        </th>
+                        <th class="headertable"  col-index="10">Location
+                            <select class="table-filter" onchange="filter_rows()">
+                            <option value="all"></option>
+                        </select>
+                        </th>
+                        <th class="headertable"  col-index="11">Languages
+                            <select class="table-filter" onchange="filter_rows()">
+                            <option value="all"></option>
+                        </select>
+                        </th>
+                        <th class="headertable"  col-index="12">Tools
+                            <select class="table-filter" onchange="filter_rows()">
+                            <option value="all"></option>
+                        </select>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="data-output">
+                <!-- Prodcuts from javascript file in here. -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
