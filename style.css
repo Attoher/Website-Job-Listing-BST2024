@@ -51,9 +51,9 @@ header {
 .navigation a,summary {
     text-decoration: none;
     color: #359381;
-    padding: 6px 15px;
+    padding: 1.5px 10px;
     border-radius: 20px;
-    margin: 15px 10px;
+    margin: 20px 10px;
     font-weight: 600;
     z-index: 1000;
     align-items: center;
