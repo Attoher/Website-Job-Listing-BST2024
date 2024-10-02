@@ -11,6 +11,14 @@ A website designed to facilitate job searching and job listings.
 - **Filter**: A filter feature that allows users to filter job listings based on specific criteria.
 - **Job Details**: A job details feature that allows users to view more information about a job listing.
 
+## Demo
+![image](https://github.com/user-attachments/assets/37069f54-1486-4602-86bb-e7d4b064897a)
+You can view the demo of this project at [Live Demo](https://attoher.github.io/Website-Job-Listing-BST2024/).
+
+## Design References
+
+- [Parallax Effect Tutorial](https://youtu.be/kmM6mqvnxcs?si=xS8VOwGfTHKRLGuu)
+
 ## Technology
 
 - **HTML**: A markup language used to create the structure of the web page.
@@ -49,4 +57,3 @@ If you have any questions or want to discuss this project, please contact me at 
 ## Note
 
 This project is still under development, and there may be bugs or issues that need to be fixed. If you find any issues, please report them to me so I can fix them as soon as possible.
-```
