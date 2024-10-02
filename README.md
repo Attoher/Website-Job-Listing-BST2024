@@ -1,5 +1,4 @@
 
-```markdown
 # Website Job Listing
 
 A website designed to facilitate job searching and job listings.
