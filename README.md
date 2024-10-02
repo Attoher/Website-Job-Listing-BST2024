@@ -13,6 +13,7 @@ A website designed to facilitate job searching and job listings.
 
 ## Demo
 ![image](https://github.com/user-attachments/assets/37069f54-1486-4602-86bb-e7d4b064897a)
+
 You can view the demo of this project at [Live Demo](https://attoher.github.io/Website-Job-Listing-BST2024/).
 
 ## Design References
