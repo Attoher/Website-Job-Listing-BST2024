@@ -56,7 +56,3 @@ If you have any questions or want to discuss this project, please contact me at 
 
 - **Repository URL**: [https://github.com/Attoher/Website-Job-Listing-BST2024.git](https://github.com/Attoher/Website-Job-Listing-BST2024.git)
 - **Branch**: main
-
-## Note
-
-This project is still under development, and there may be bugs or issues that need to be fixed. If you find any issues, please report them to me so I can fix them as soon as possible.
